@@ -1,0 +1,31 @@
+"Window":{
+	title: "Vertical Positioning",
+	layout: "vertical"
+},
+"Label":{
+	text: "Label"
+},
+".fill-size":{
+	//Para poder utilizar textAlign la vista debe ocupar
+	//el ancho de la vista que lo contiene
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE
+}
+".alignLeft":{
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_LEFT
+},
+".alignCenter":{
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER
+},
+".alignRight":{
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_RIGHT
+},
+".margin":{
+	//Left y right actuan como posicionador horizontal
+	left: 24,
+	right: 24
+},
+".top":{
+	//Top y bottom actuan como padding dentro de un layout vertical
+	top: 250
+}

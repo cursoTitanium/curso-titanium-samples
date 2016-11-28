@@ -1,0 +1,17 @@
+<Alloy>
+    <Window id="win" class="container">
+    	<ActionBar />
+        <Button id="showDialog" />
+        <OptionDialog id="option">
+            <Options>
+                <Option>Lunes</Option>
+                <Option>Martes</Option>
+                <Option>Miércoles</Option>
+                <Option>Jueves</Option>
+                <Option>Viernes</Option>
+                <Option>Sábado</Option>
+                <Option>Domingo</Option>
+            </Options>
+        </OptionDialog>
+    </Window>
+</Alloy>

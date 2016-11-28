@@ -1,0 +1,6 @@
+<Alloy>
+	<Window id="win" class="container">
+		<ActionBar />
+		<ProgressBar id="progressBar" />
+	</Window>
+</Alloy>

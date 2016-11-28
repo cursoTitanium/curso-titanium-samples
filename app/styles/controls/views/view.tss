@@ -1,0 +1,26 @@
+"Window":{
+	title: "View"
+},
+//Establecemos estilos para las vistas en una disposición absoluta
+"#view1" : {
+	//A 10 puntos del margen superior
+    top: 10,
+    //Tamaño de la vista
+    width: 100,
+    height: 100,
+    //Color de fondo
+    backgroundColor: "#f00"
+},
+"#view2" : {
+	//Esta vista estará centrada la ventana (posición por defecto)
+    width: 100,
+    height: 100,
+    backgroundColor: "#0f0"
+},
+"#view3" : {
+	//A 10 puntos del margen inferior
+    bottom: 10,
+    width: 100,
+    height: 100,
+    backgroundColor: "#00f"
+}

@@ -1,0 +1,10 @@
+<Alloy>
+	<Window id="win" class="container">
+		<ActionBar />
+		<View class="vertical">
+			<Switch id="switchButton" />
+			<Switch id="toggle" />
+			<Switch id="checkbox" />
+		</View>
+	</Window>
+</Alloy>

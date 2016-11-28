@@ -1,0 +1,16 @@
+"Window":{
+	title: "Progress Bar"
+},
+"#progressBar":{
+	top: 25,
+	width: 250,
+	min: 0,
+	max: 10,
+	value: 0,
+	color: 'blue',
+	message: 'Descargando 0 de 10',
+	font: {
+		fontSize: 14,
+		fontWeight: 'bold'
+	}
+}

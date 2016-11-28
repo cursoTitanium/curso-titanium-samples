@@ -1,0 +1,18 @@
+<Alloy>
+	<Window id="win" class="container">
+		<ActionBar />
+		<View class="fill-size horizontal-wrap">
+			<Label class="width-50 left gray6" />
+			<Label class="width-100 left gray5" />
+			<Label class="width-200 gray4"/>
+			<Label class="width-50 gray3" />
+			<Label class="left right gray2" />
+			<Label class="width-100 gray1"/>
+		</View>
+		<View class="fill-size horizontal-no-wrap">
+			<Label class="width-200 gray6" />
+			<Label class="width-50 left right gray5" />
+			<Label class="width-200 gray4"/>
+		</View>
+	</Window>
+</Alloy>

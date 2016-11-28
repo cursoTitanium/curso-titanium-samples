@@ -1,0 +1,16 @@
+<Alloy>
+	<Window id="win" class="container">
+		<ActionBar />
+		<View class="dropdownContainer">
+			<Picker id="picker" class="dropdown">
+				<PickerColumn id="column1">
+					<PickerRow title="Bananas"/>
+					<PickerRow title="Strawberries"/>
+					<PickerRow title="Mangos"/>
+					<PickerRow title="Grapes"/>
+				</PickerColumn>
+			</Picker>
+		</View>
+		<Picker id="datePicker" class="date" />
+	</Window>
+</Alloy>

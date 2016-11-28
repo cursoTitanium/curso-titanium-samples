@@ -1,0 +1,48 @@
+"Window":{
+	title: "Absolute Positioning"
+},
+"View":{
+	width: 75,
+	height: 75,
+	backgroundColor: "#CC000000"
+},
+".topLeft":{
+	top: 24,
+	left: 24
+}
+".topCenter":{
+	top: 24
+},
+".topRight":{
+	right: 24,
+	top: 24
+},
+".centerLeft":{
+	center: {
+		x: "25%",
+		y: "50%"
+	}
+},
+".center":{
+	center: {
+		x: "50%",
+		y: "50%"
+	}
+},
+".centerRight":{
+	center: {
+		x: "75%",
+		y: "50%"
+	}
+},
+".bottomLeft":{
+	bottom: 24,
+	left: 24
+}
+".bottomCenter":{
+	bottom: 24
+},
+".bottomRight":{
+	right: 24,
+	bottom: 24
+}

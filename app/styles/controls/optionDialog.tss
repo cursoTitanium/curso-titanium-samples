@@ -1,0 +1,9 @@
+"Window":{
+	title: "Option Dialog"
+},
+"#option":{
+	title: "Selecciona un día de la semana:"
+},
+"#showDialog":{
+	title: "¡Mostrar diálogo!"
+}

@@ -1,0 +1,12 @@
+<Alloy>
+	<Window id="win" class="container">
+		<ActionBar />
+		<ListView id="list">
+			<ListSection>
+				<ListItem title="Absolute" itemId="absolute" />
+				<ListItem title="Vertical" itemId="vertical" />
+				<ListItem title="Horizontal" itemId="horizontal" />
+			</ListSection>
+		</ListView>
+	</Window>
+</Alloy>

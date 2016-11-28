@@ -1,0 +1,29 @@
+"Window":{
+	title: "Demo APP"
+},
+"ActionBar":{
+	//Ocultamos el botón de home
+	displayHomeAsUp: false
+},
+".vertical":{
+	width: Titanium.UI.SIZE,
+	height: Titanium.UI.SIZE,
+	layout: "vertical"
+},
+"#readFile":{
+	title: "Leer fichero"
+},
+"#writeFile":{
+	title: "Escribir fichero"
+},
+"#textArea":{
+	width: 300,
+	height: 150,
+	color: "black",
+	hintText: "Escribe aqui el contenido del fichero",
+	hintTextColor: "#AAA"
+},
+"#fileContent":{
+	color: "black",
+	textx: ""
+}

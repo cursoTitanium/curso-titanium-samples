@@ -1,0 +1,11 @@
+<Alloy>
+	<Window id="win" class="container">
+		<ActionBar />
+		<View class="activityContainer">
+			<ActivityIndicator id="indicatorPlain" class="padding" />
+			<ActivityIndicator id="indicatorBig" class="padding" />
+			<ActivityIndicator id="indicatorPlainMessage" class="padding" />
+			<ActivityIndicator id="indicatorBigMessage" class="padding" />
+		</View>
+	</Window>
+</Alloy>

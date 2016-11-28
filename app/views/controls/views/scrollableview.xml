@@ -1,0 +1,27 @@
+<Alloy>
+	<Window id="win" class="container">
+		<ActionBar />
+		<View id="toolbar">
+			<Label id="page1" class="menu" />
+			<Label id="page2" class="menu" />
+			<Label id="page3" class="menu" />
+		</View>
+		<ScrollableView id="scrollableView">
+			<View id="view1">
+				<Label>
+					View 1
+				</Label>
+			</View>
+			<View id="view2">
+				<Label>
+					View 2
+				</Label>
+			</View>
+			<View id="view3">
+				<Label>
+					View 3
+				</Label>
+			</View>
+		</ScrollableView>
+	</Window>
+</Alloy>

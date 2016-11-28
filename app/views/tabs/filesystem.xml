@@ -1,0 +1,11 @@
+<Alloy>
+	<Window id="win" class="container">
+		<ActionBar />
+		<View class="vertical">
+			<TextArea id="textArea" />
+			<Button id="writeFile" />
+			<Button id="readFile" />
+			<Label id="fileContent" />
+		</View>
+	</Window>
+</Alloy>

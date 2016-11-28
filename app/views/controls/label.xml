@@ -1,0 +1,11 @@
+<Alloy>
+	<Window id="win" class="container">
+		<ActionBar />
+		<Label id="label" />
+		<View class="buttonContainer">
+			<Button id="left" />
+			<Button id="center" />
+			<Button id="right" />
+		</View>
+	</Window>
+</Alloy>

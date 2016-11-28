@@ -1,0 +1,7 @@
+"Window":{
+	title: "Web View"
+},
+"WebView":{
+	//Cargamos la url
+	url: "https://www.upv.es"
+}

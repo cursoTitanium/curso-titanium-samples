@@ -1,0 +1,55 @@
+"Window":{
+	title: "Scrollable View"
+},
+"#toolbar":{
+	//Situamos arriba del todo la barra de menu
+	top: 0,
+	//Indicamos que ocupa todo el ancho de la ventana
+	width: Titanium.UI.FILL,
+	//Indicamos una altura de 48 puntos
+	height: 48,
+	//Disposición horizontal
+	layout: "horizontal",
+	//Si las vistas contenidas llegan al final no saltan de línea
+	horizontalWrap: false
+},
+//Elementos de menú, establecemos el texto de las etiquetas
+"#page1":{
+	text: "PAGE 1"
+},
+"#page2":{
+	text: "PAGE 2"
+},
+"#page3":{
+	text: "PAGE 3"
+},
+//Aplicamos clase a cada elemento de menu
+".menu":{
+	//Anchura y altura de cada elemento
+	width: "33%",
+	height: Titanium.UI.SIZE,
+	//Establecemos estilos de fuente
+	font:{
+		fontSize: 16,
+		fontWeight: "bold"
+	},
+	color: "black",
+	//Alineamos al centro
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER
+},
+//Estilos de la vista ScrollableView
+"ScrollableView":{
+	showPagingControl: true,
+	//Comienza desplazada 48 puntos desde el borde superior
+	top: 48
+},
+//Damos estilo a las páginas de la vista scrollable
+"#view1":{
+	backgroundColor: "#aaa"
+},
+"#view2":{
+	backgroundColor: "#bbb"
+},
+"#view3":{
+	backgroundColor: "#ccc"
+}

@@ -1,0 +1,9 @@
+<Alloy>
+    <Window id="win" class="container">
+    	<ActionBar />
+    	<View class="vertical">
+    		<TextField id="textField" />
+    		<Label id="text" />
+    	</View>
+    </Window>
+</Alloy>

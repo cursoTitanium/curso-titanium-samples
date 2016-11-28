@@ -1,0 +1,9 @@
+<Alloy>
+	<Window id="win" class="container">
+		<ActionBar />
+		<View class="vertical">
+			<Slider id="slider" />
+			<Label id="sliderValue" />
+		</View>
+	</Window>
+</Alloy>

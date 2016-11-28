@@ -1,0 +1,25 @@
+"Window":{
+	title: "Switch"
+},
+".vertical":{
+	width: Titanium.UI.SIZE,
+	height: Titanium.UI.SIZE,
+	layout: "vertical"
+},
+"#checkbox":{
+	style: Ti.UI.Android.SWITCH_STYLE_CHECKBOX,
+	textAlign:Ti.UI.TEXT_ALIGNMENT_CENTER,
+	title: 'Notifications',
+	value: true,
+	width: 300,
+	color: "black",
+	backgroundColor: "#CCC"
+},
+"#toggle":{
+	style: Ti.UI.Android.SWITCH_STYLE_TOGGLEBUTTON,
+	titleOn: 'Notifications Enabled',
+	titleOff: 'Notifications Disabled',
+	value: true,
+	width: 200,
+	height: 120
+}

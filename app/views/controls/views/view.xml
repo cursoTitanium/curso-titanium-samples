@@ -1,0 +1,8 @@
+<Alloy>
+	<Window id="win" class="container">
+		<ActionBar />
+		<View id="view1" />
+		<View id="view2" />
+		<View id="view3" />
+	</Window>
+</Alloy>

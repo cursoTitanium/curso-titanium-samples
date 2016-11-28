@@ -1,0 +1,20 @@
+"Window":{
+	title: "Slider"
+},
+".vertical":{
+	width: Titanium.UI.SIZE,
+	height: Titanium.UI.SIZE,
+	layout: "vertical"
+},
+"#sliderValue":{
+	font:{
+		fontSize: 16
+	},
+	color: "black"
+},
+"#slider":{
+	min: 0,
+	max: 100,
+	width: 200,
+	value: 50
+}

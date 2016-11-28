@@ -1,0 +1,20 @@
+"Window":{
+	title: "Text Field"
+},
+".vertical":{
+	width: Titanium.UI.SIZE,
+	height: Titanium.UI.SIZE,
+	layout: "vertical"
+},
+"#textField":{
+	width: 150,
+	height: 40,
+	font:{
+		fontSize: 16
+	},
+	color: "black",
+	borderRadius: 4,
+	borderColor: "#A6A6A6",
+	hintText: "Escribe algo...",
+	hintTextColor: "#A6A6A6"
+}

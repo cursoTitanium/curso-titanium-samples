@@ -1,0 +1,22 @@
+<Alloy>
+	<Window class="container">
+		<ActionBar />
+		<ListView id="list">
+			<ListSection>
+				<ListItem title="Positioning" itemId="positioning" />
+				<ListItem title="Views" itemId="views" />
+				<ListItem title="Label" itemId="label" />
+				<ListItem title="Button" itemId="button" />
+				<ListItem title="Switch" itemId="switch" />
+				<ListItem title="Slider" itemId="slider" />
+				<ListItem title="Activity Indicator" itemId="activityIndicator" />
+				<ListItem title="Picker" itemId="picker" />
+				<ListItem title="Alert Dialog" itemId="alertDialog" />
+				<ListItem title="Option Dialog" itemId="optionDialog" />
+				<ListItem title="Text Field" itemId="textField" />
+				<ListItem title="Text Area" itemId="textArea" />
+				<ListItem title="Progress Bar" itemId="progressBar" />
+			</ListSection>
+		</ListView>
+	</Window>
+</Alloy>

@@ -1,0 +1,11 @@
+<Alloy>
+	<Window id="win" class="container">
+		<ActionBar />
+		<Label class="fill-size alignLeft gray6" />
+		<Label class="fill-size alignCenter gray5" />
+		<Label class="fill-size alignRight gray4"/>
+		<Label class="gray3" />
+		<Label class="fill-size margin gray2" />
+		<Label class="top gray1"/>
+	</Window>
+</Alloy>

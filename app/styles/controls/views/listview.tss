@@ -1,0 +1,22 @@
+"Window":{
+	title: "List View"
+},
+".titleLabel": {
+	left: 15,
+	color: "red"
+},
+".detailLabel": {
+	right: 5,
+	color: "green",
+	font: {
+		fontWeight: "bold"	
+	}
+},
+// Apply custom margins for Android since the ListItem
+// behaves different natively
+".titleLabel[platform=android]": {
+	left: 0
+},
+".detailLabel[platform=android]": {
+	right: 25
+}

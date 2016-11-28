@@ -1,0 +1,12 @@
+"Window":{
+	title: "Alert Dialog"
+},
+"#alert":{
+	title: "Borrar",
+	message: "¿Deseas eliminar la foto?",
+	cancel: 0,
+	destructive: 2
+},
+"#showDialog":{
+	title: "¡Borrar archivo!"
+}

@@ -1,0 +1,12 @@
+<Alloy>
+	<Window id="win" class="container">
+		<ActionBar />
+		<ScrollView>
+			<View class="vertical">
+				<Button id="getRequest" />
+				<Button id="postRequest" />
+			</View>
+			<Label id="response" />
+		</ScrollView>
+	</Window>
+</Alloy>

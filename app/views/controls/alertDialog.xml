@@ -1,0 +1,13 @@
+<Alloy>
+    <Window id="win" class="container">
+    	<ActionBar />
+        <Button id="showDialog" />
+        <AlertDialog id="alert">
+            <ButtonNames>
+            	<ButtonName>No</ButtonName>
+                <ButtonName>Ayuda</ButtonName>
+                <ButtonName>Si</ButtonName>
+            </ButtonNames>
+        </AlertDialog>
+    </Window>
+</Alloy>

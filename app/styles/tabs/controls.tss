@@ -1,0 +1,7 @@
+"Window":{
+	title: "Demo APP"
+},
+"ActionBar":{
+	//Ocultamos el botón de home
+	displayHomeAsUp: false
+}

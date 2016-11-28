@@ -1,0 +1,14 @@
+<Alloy>
+	<Window id="win" class="container">
+		<ActionBar />
+		<View class="topLeft" />
+		<View class="topCenter" />
+		<View class="topRight" />
+		<View class="centerLeft" />
+		<View class="center" />
+		<View class="centerRight" />
+		<View class="bottomLeft" />
+		<View class="bottomCenter" />
+		<View class="bottomRight" />
+	</Window>
+</Alloy>

@@ -1,0 +1,56 @@
+"ActionBar":{
+	//Por defecto mostramos el botón atrás
+	displayHomeAsUp: true,
+	//Por defecto buscamos un método close
+	//para cerrar la ventana
+	onHomeIconItemSelected: "close"
+},
+"ListView":{
+	//Establecemos el color del separador de filas
+	separatorColor: "#E6E6E6"
+},
+"ListItem":{
+	//Establecemos tamaño de una fila
+	width: Ti.UI.FILL,
+	height: 48,
+	//Icono por defecto
+	accessoryType: Titanium.UI.LIST_ACCESSORY_TYPE_DISCLOSURE,
+	//Margen izquierdo
+	left: 16,
+	//Atributos de fuente
+	font: {
+		fontSize: 16
+	},
+	color: "black"
+},
+"Label": {
+	//Tamaño de las etiquetas
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	font: {
+		fontSize: "16dp"
+	},
+	color: "#000"
+},
+//Algunas clases con diferentes colores de fondo
+".container": {
+	backgroundColor: "white"
+},
+".gray1":{
+	backgroundColor: "#EEE"
+},
+".gray2":{
+	backgroundColor: "#DDD"
+},
+".gray3":{
+	backgroundColor: "#CCC"
+},
+".gray4":{
+	backgroundColor: "#BBB"
+},
+".gray5":{
+	backgroundColor: "#AAA"
+},
+".gray6":{
+	backgroundColor: "#999"
+}

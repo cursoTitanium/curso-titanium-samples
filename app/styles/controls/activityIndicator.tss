@@ -1,0 +1,36 @@
+"Window":{
+	title: "Activity Indicator"
+},
+".activityContainer":{
+	layout: "vertical"
+},
+".padding":{
+	top: 25,
+	bottom: 25
+},
+"ActivityIndicator": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE
+},
+"#indicatorPlain": {
+	style: Ti.UI.ActivityIndicatorStyle.PLAIN
+},
+"#indicatorBig": {
+	style: Ti.UI.ActivityIndicatorStyle.BIG
+},
+"#indicatorPlainMessage": {
+	style: Ti.UI.ActivityIndicatorStyle.PLAIN,
+	message: "Cargando...",
+	color: "#363636",
+	font:{
+		fontSize: 16
+	}
+},
+"#indicatorBigMessage": {
+	style: Ti.UI.ActivityIndicatorStyle.BIG,
+	message: "Cargando...",
+	color: "#363636",
+	font:{
+		fontSize: 22
+	}	
+}

@@ -1,0 +1,40 @@
+"Window":{
+	title: "Label"
+},
+"#label":{
+	//Marcamos limites de la etiqueta
+	top: 25,
+	left: 25,
+	right: 25,
+	//Añadimos el texto a la etiqueta
+	text: "En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor.",
+	//Establecemos atributos de fuente
+	font:{
+		fontSize: 14
+	},
+	color: "#88000000" //Color negro pero con canal alfa con valor 88
+},
+".buttonContainer":{
+	//El tamaño se ajusta al contenido
+	width: Titanium.UI.SIZE,
+	height: Titanium.UI.SIZE,
+	//Disposición horizontal
+	layout: "horizontal"
+},
+".button":{
+	//Establecemos fondo del boton y fuente
+	backgroundColor: "#E6E6E6",
+	font: {
+		fontSize: 16
+	}
+},
+//Establecemos los títulos de los 3 botones
+"#left":{
+	title: "Alinear izquierda"
+},
+"#center":{
+	title: "Alinear centro"
+},
+"#right":{
+	title: "Alinear derecha"
+}

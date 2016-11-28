@@ -1,0 +1,27 @@
+"Window":{
+	title: "Picker",
+	layout: "vertical"
+},
+".dropdownContainer":{
+	width: Titanium.UI.SIZE,
+	height: Titanium.UI.SIZE,
+	backgroundColor: "#363636"	
+},
+"Picker":{
+	width: Titanium.UI.SIZE,
+	height: Titanium.UI.SIZE
+},
+"PickerRow":{
+	color: "white"
+},
+".dropdown":{
+	selectionIndicator: "true",
+	type: Titanium.UI.PICKER_TYPE_PLAIN
+},
+".date":{
+	backgroundColor: "#363636",
+	type: Ti.UI.PICKER_TYPE_DATE,
+	minDate: "2014,04,01",
+	maxDate: "May 1, 2014 12:00:00",
+	value: "2014-04-15T12:00:00"
+}

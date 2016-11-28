@@ -1,0 +1,29 @@
+"Window":{
+	title: "Demo APP"
+},
+"ActionBar":{
+	//Ocultamos el botón de home
+	displayHomeAsUp: false
+},
+"ScrollView":{
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.FILL,
+	layout: "vertical"
+},
+".vertical":{
+	width: Titanium.UI.SIZE,
+	height: Titanium.UI.SIZE,
+	layout: "horizontal"
+},
+"#getRequest":{
+	title: "GET"
+},
+"#postRequest":{
+	title: "POST"
+},
+"#response":{
+	color: "black",
+	text: "",
+	left: 24,
+	right: 24
+}

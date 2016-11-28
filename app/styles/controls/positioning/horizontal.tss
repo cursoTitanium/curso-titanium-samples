@@ -1,0 +1,36 @@
+"Window":{
+	title: "Horizontal Positioning",
+	layout: "vertical"
+},
+"Label":{
+	text: "Label"
+},
+".width-50":{
+	width: 50
+},
+".width-100":{
+	width: 100
+},
+".width-200":{
+	width: 200
+},
+".fill-size":{
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE
+},
+".horizontal-wrap":{
+	layout: "horizontal"
+},
+".horizontal-no-wrap":{
+	layout: "horizontal",
+	//No salta de linea si no caben las vistas y se corta en anchura
+	horizontalWrap: false
+},
+".left": {
+	//Actua de margen izquierdo
+	left: 24
+},
+".right":{
+	//Actua de margen derecho
+	right: 24
+}

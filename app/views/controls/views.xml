@@ -1,0 +1,15 @@
+<Alloy>
+	<Window id="win" class="container">
+		<ActionBar />
+		<ListView id="list">
+			<ListSection>
+				<ListItem title="View" itemId="view" />
+				<ListItem title="Scroll View" itemId="scrollview" />
+				<ListItem title="Scrollable View" itemId="scrollableview" />
+				<ListItem title="Image View" itemId="imageview" />
+				<ListItem title="List View" itemId="listview" />
+				<ListItem title="Web View" itemId="webview" />
+			</ListSection>
+		</ListView>
+	</Window>
+</Alloy>

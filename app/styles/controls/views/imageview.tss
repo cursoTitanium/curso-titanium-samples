@@ -1,0 +1,8 @@
+"Window":{
+	title: "Image View"
+},
+"#image":{
+	//Establecemos la imagen indicando la ruta al recurso local
+	//También puede ser una url
+	image: "/images/imagen.jpg"
+}

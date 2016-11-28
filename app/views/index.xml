@@ -1,0 +1,13 @@
+<Alloy>
+	<TabGroup>
+		<Tab title="Controls">
+			<Require id="controls" src="tabs/controls" />
+		</Tab>		
+		<Tab title="Filesystem">
+			<Require id="filesystem" src="tabs/filesystem" />
+		</Tab>
+		<Tab title="Network">
+			<Require id="http" src="tabs/http" />
+		</Tab>
+	</TabGroup>
+</Alloy>

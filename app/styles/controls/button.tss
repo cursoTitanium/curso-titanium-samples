@@ -1,0 +1,11 @@
+"Window":{
+	title: "Button"
+},
+"#button":{
+    title:"¡Pínchame!",
+    backgroundColor: "orange",
+    color: "white",
+    font:{
+        fontSize: 18
+    }
+}

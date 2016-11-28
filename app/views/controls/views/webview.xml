@@ -1,0 +1,6 @@
+<Alloy>
+	<Window id="win">
+		<ActionBar />
+		<WebView id="webview" />
+	</Window>
+</Alloy>
