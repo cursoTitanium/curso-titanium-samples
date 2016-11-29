@@ -4,4 +4,24 @@
 "ActionBar":{
 	//Ocultamos el botón de home
 	displayHomeAsUp: false
+},
+"#searchItem":{
+	showAsAction: Ti.Android.SHOW_AS_ACTION_ALWAYS,
+	title: "Search"
+},
+"#searchView":{
+	hintText: "Type Something"
+},
+"#refreshItem":{
+	showAsAction: Titanium.Android.SHOW_AS_ACTION_ALWAYS,
+	icon: "/images/action_bar_refresh.png"
+},
+"#shareItem":{
+	showAsAction: Titanium.Android.SHOW_AS_ACTION_IF_ROOM,
+	title: "Share",
+	icon: "/images/action_bar_share.png"
+},
+"#moreItem":{
+	showAsAction: Titanium.Android.SHOW_AS_ACTION_NEVER,
+	title: "More..."
 }

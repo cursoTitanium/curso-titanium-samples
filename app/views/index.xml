@@ -1,8 +1,19 @@
 <Alloy>
 	<TabGroup>
+		<ActionBar />
+		<Menu>
+			<MenuItem id="searchItem">
+				<ActionView>
+					<SearchView id="searchView" ns="Ti.UI.Android" onChange="changeSearch"/>
+				</ActionView>
+			</MenuItem>
+			<MenuItem id="refreshItem" onClick="refreshAction" />
+			<MenuItem id="shareItem" onClick="shareAction" />
+			<MenuItem id="moreItem" onClick="moreAction" />
+		</Menu>
 		<Tab title="Controls">
 			<Require id="controls" src="tabs/controls" />
-		</Tab>		
+		</Tab>
 		<Tab title="Filesystem">
 			<Require id="filesystem" src="tabs/filesystem" />
 		</Tab>
