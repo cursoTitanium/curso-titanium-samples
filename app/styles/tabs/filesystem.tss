@@ -5,15 +5,46 @@
 	//Ocultamos el botón de home
 	displayHomeAsUp: false
 },
+"ScrollableView":{
+	top: 0,
+	bottom: 48
+},
+"ListView":{
+	top: 48,
+	bottom: 0
+},
+"ListSection":{
+	left: 16,
+	right: 16
+},
+"ListItem":{
+	accessoryType: Titanium.UI.LIST_ACCESSORY_TYPE_NONE,
+},
+"Label":{
+	color: "black",
+	font: {
+		fontSize: 16
+	}
+},
 ".vertical":{
 	width: Titanium.UI.SIZE,
 	height: Titanium.UI.SIZE,
 	layout: "vertical"
 },
+".buttonFileContainer":{
+	width: 300,
+	height: Titanium.UI.SIZE,
+	layout: "horizontal",
+	horizontalWrap: false
+},
 "#readFile":{
-	title: "Leer fichero"
+	width: 150,
+	height: 40,
+	title: "Leer fichero",
 },
 "#writeFile":{
+	width: 150,
+	height: 40,	
 	title: "Escribir fichero"
 },
 "#textArea":{
@@ -21,9 +52,50 @@
 	height: 150,
 	color: "black",
 	hintText: "Escribe aqui el contenido del fichero",
-	hintTextColor: "#AAA"
+	hintTextColor: "#AAA",
+	backgroundColor: "#E6E6E6"
+},
+".scrollFileContent":{
+	layout: "vertical",
+	width: 300,
+	height: Titanium.UI.SIZE,
+	scrollType: "vertical"
 },
 "#fileContent":{
 	color: "black",
 	textx: ""
+},
+".menu":{
+	bottom: 0,
+	width: Titanium.UI.FILL,
+	height: 48,
+	backgroundColor: "#E6E6E6",
+	layout: "horizontal"
+},
+".menuItem":{
+	width: "50%",
+	height: Titanium.UI.FILL,
+	color: "#363636",
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER
+},
+"#basicOperations":{
+	text: "Operaciones Básicas"
+},
+"#listingDirectories":{
+	text: "Listado de directorios"
+},
+"#directory":{
+	top: 0,
+	left: 16,
+	right: 132,
+	width: Titanium.UI.FILL,
+	height: 48,
+	text: "Selecciona un directorio"
+},
+"#selectDirectory":{
+	top: 0,
+	right: 16,
+	width: 100,
+	height: 48,
+	title: "Cambiar"
 }

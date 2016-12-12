@@ -1,11 +1,41 @@
 <Alloy>
 	<Window id="win" class="container">
 		<ActionBar />
-		<View class="vertical">
-			<TextArea id="textArea" />
-			<Button id="writeFile" />
-			<Button id="readFile" />
-			<Label id="fileContent" />
+		<ScrollableView id="pager">
+			<View id="page1">
+				<View class="vertical">
+					<TextArea id="textArea" />
+					<View class="buttonFileContainer">
+						<Button id="readFile" />
+						<Button id="writeFile" />
+					</View>
+					<ScrollView class="scrollFileContent">
+						<Label id="fileContent" />
+					</ScrollView>
+				</View>
+			</View>
+			<View id="page2">
+				<Label id="directory" />
+				<Button id="selectDirectory" />
+				<ListView id="list">
+					<ListSection id="section">
+						<ListItem title="No hay elementos" />
+					</ListSection>
+				</ListView>
+			</View>
+		</ScrollableView>
+		<View class="menu">
+			<Label id="basicOperations" class="menuItem" />
+			<Label id="listingDirectories" class="menuItem" />
 		</View>
+		<OptionDialog id="dialog">
+			<Options>
+				<Option>Application Data Directory</Option>
+				<Option>Resources Directory</Option>
+				<Option>Temporal Directory</Option>
+				<Option>Application Cache Directory</Option>
+				<Option>External Storage Directory</Option>
+			</Options>
+		</OptionDialog>
 	</Window>
 </Alloy>
