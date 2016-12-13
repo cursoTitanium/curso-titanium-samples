@@ -1,0 +1,39 @@
+"Window":{
+	title: "Demo APP"
+},
+"ActionBar":{
+	//Ocultamos el botón de home
+	displayHomeAsUp: false
+},
+"ListView":{
+	top: 0,
+	bottom: 48
+},
+"ListSection":{
+	left: 16,
+	right: 16
+},
+"ListItem":{
+	accessoryType: Titanium.UI.LIST_ACCESSORY_TYPE_NONE,
+},
+".menu":{
+	bottom: 0,
+	width: Titanium.UI.FILL,
+	height: 48,
+	backgroundColor: "#E6E6E6",
+	layout: "horizontal"
+},
+".menuItem":{
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.FILL,
+	color: "#363636",
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER
+},
+"#readDatabase":{
+	text: "LEER DB"
+},
+".row":{
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE,
+	layout: "vertical"
+}

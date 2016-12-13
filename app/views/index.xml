@@ -20,5 +20,8 @@
 		<Tab title="Network">
 			<Require id="http" src="tabs/http" />
 		</Tab>
+		<Tab title="Database">
+			<Require id="database" src="tabs/database" />
+		</Tab>		
 	</TabGroup>
 </Alloy>

@@ -7,6 +7,7 @@
 
 	"use strict";
 
+	//Preparamos un vector con los almacenamientos
 	var params = args,
 	    storage = [Ti.Filesystem.applicationDataDirectory, Ti.Filesystem.resourcesDirectory, Ti.Filesystem.tempDirectory, Ti.Filesystem.applicationCacheDirectory, Ti.Filesystem.externalStorageDirectory],
 	    EXTERNAL_STORAGE = 4;
@@ -18,6 +19,8 @@
 	(function bindEvents() {
 		console.log("bindEvents");
 
+		//Añadimos listeners a los elementos de UI
+		
 		$.addListener($.readFile, "click", readFile);
 		$.addListener($.writeFile, "click", writeFile);
 		$.addListener($.basicOperations, "click", switchBasicOperations);
@@ -37,9 +40,12 @@
 
 		var text;
 
+		//Obtenemos contenido de TextArea
 		text = $.textArea.getValue();
 
+		//Si hay texto
 		if (text.length) {
+			//Obtenemos fichero texto.txt del directorio privado de la apicación y escribimos contenido
 			Ti.Filesystem.getFile(Ti.Filesystem.applicationDataDirectory, "texto.txt").write(text);
 			Alloy.Globals.toast("Fichero texto.txt guardado.");
 		} else {
@@ -58,13 +64,16 @@
 		var file,
 		    text;
 
+		//Obtenemos manejador de fichero
 		file = Ti.Filesystem.getFile(Ti.Filesystem.applicationDataDirectory, "texto.txt");
 		text = "No existe el fichero";
 
+		//Si el fichero existe, leemos
 		if (file.exists()) {
 			text = file.read().text;
 		}
 
+		//Mostramos texto en Label
 		$.fileContent.setText(text);
 	}
 
@@ -87,12 +96,17 @@
 	function selectDirectory(e) {
 		console.log("selectDirectory");
 
+		//Obtenemos indice del botón sobre el que se hace click
 		var selectedIndex = e.index;
 
+		//Si es botón
 		if (selectedIndex > -1) {
+			//Si es EXTERNAL_STORAGE
 			if (selectedIndex == EXTERNAL_STORAGE) {
+				//Comprobamos permisos
 				checkExternalStorage(selectedIndex);
 			} else {
+				//Listamos directorios y ficheros
 				listDirectory(selectedIndex);
 			}
 		}
@@ -115,10 +129,14 @@
 			}
 		}
 
+		//Si el almacenamiento externo está disponible
 		if (Ti.Filesystem.isExternalStoragePresent) {
+			//Si tenemos permisos
 			if (Ti.Filesystem.hasStoragePermissions()) {
+				//Listamos directorio y ficheros
 				listDirectory(storageIndex);
 			} else {
+				//Solicitamos permisos
 				Ti.Filesystem.requestStoragePermissions(checkPermissions);
 			}
 		}
@@ -132,12 +150,13 @@
 	function listDirectory(storageIndex) {
 		console.log("listDirectory");
 
+		//Obtenemos el listado del directorio
 		var itemList = [],
 		    directoryList = Ti.Filesystem.getFile(storage[storageIndex]).getDirectoryListing();
 
-		console.log(JSON.stringify(directoryList));
-
+		//Preparamos lista de items con el contenido del directorio
 		itemList = directoryList.map(function(directory) {
+			//Devolvemos objeto ListItem
 			return {
 				properties : {
 					title : directory,
@@ -149,6 +168,7 @@
 			};
 		});
 
+		//Si el directorio está vacío
 		if (!itemList.length) {
 			itemList.push({
 				properties : {
@@ -161,6 +181,7 @@
 			});
 		}
 
+		//Establecemos items en sección
 		$.section.setItems(itemList);
 	}
 

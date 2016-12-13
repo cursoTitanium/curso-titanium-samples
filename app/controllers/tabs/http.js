@@ -10,6 +10,7 @@
 	var params = args,
 	    httpClient;
 
+	//Creamos Http Client
 	httpClient = Ti.Network.createHTTPClient({
 		onload : success,
 		onerror : error,
@@ -35,8 +36,13 @@
 	function getRequest(e) {
 		console.log("getRequest");
 
+		//Si hay una petición en marcha abortamos.
 		httpClient.abort();	
+		
+		//Abrimos conexión
 		httpClient.open("GET", "http://httpbin.org/html");
+		
+		//Enviamos petición
 		httpClient.send();
 	}
 
@@ -48,8 +54,13 @@
 	function postRequest(e) {
 		console.log("postRequest");
 
-		httpClient.abort();	
+		//Si hay una petición en marcha abortamos.
+		httpClient.abort();
+		
+		//Abrimos conexión	
 		httpClient.open("POST", "http://httpbin.org/post");
+		
+		//Enviamos petición
 		httpClient.send({
 			message: "Mi mensaje es este."
 		});

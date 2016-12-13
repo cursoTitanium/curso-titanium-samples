@@ -1,0 +1,22 @@
+<Alloy>
+	<Window id="win" class="container">
+		<ActionBar />
+		<ListView id="list">
+			<Templates>
+				<ItemTemplate name="film">
+					<View class="row">
+						<Label bindId="title" />
+						<Label bindId="type" />
+						<Label bindId="year" />
+					</View>
+				</ItemTemplate>
+			</Templates>
+			<ListSection id="section">
+				<ListItem title="Sin registros" color="black" />
+			</ListSection>
+		</ListView>
+		<View class="menu">
+			<Label id="readDatabase" class="menuItem" />
+		</View>
+	</Window>
+</Alloy>

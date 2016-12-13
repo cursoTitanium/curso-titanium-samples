@@ -1,3 +1,5 @@
+//Funciones de ActionBar
+
 function changeSearch(e){
 	alert($.searchView.value);
 }
@@ -14,4 +16,5 @@ function moreAction(e){
 	alert("Click en más acciones!");
 }
 
+//Abrimos app
 $.index.open();

@@ -33,6 +33,7 @@
 		var listItem = e.section.getItemAt(e.itemIndex);
 		var controller = "controls/" + listItem.properties.itemId;
 		
+		//Abrimos controlador
 		Alloy.createController(controller).getView().open();
 	}
 
